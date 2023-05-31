@@ -5,6 +5,7 @@ interface str {
 }
 const NewPost: React.FC<str> = (props) => {
   //   const inputData = useRef<HTMLInputElement>(null);
+  // Access data
   const [inputData, setData] = useState<string>("");
 
   const formSubmitHandler = (e: React.FormEvent) => {
